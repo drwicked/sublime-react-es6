@@ -1,17 +1,13 @@
 <snippet>
     <content><![CDATA[
-import React from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { reduxFunc } from '../dux';
 
-function mapStateToProps(state) {
-	return {
-
-	};
-}
-
-export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component {
+export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
 	static propTypes = {
-		${2:name}: React.PropTypes.${3:string},
+		${2:name}: PropTypes.${3:string},
 	};
 
 	constructor(props) {
@@ -25,9 +21,17 @@ export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends React.Component
 	}
 }
 
+const mapStateToProps = state => ({
+	value: state.value 
+});
+
+const mapDispatchToProps = {
+	reduxFunc
+};
+
 export default connect(
-	mapStateToProps,
-// Implement map dispatch to props
+  mapStateToProps,
+  mapDispatchToProps
 )(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}})
 
 ]]></content>

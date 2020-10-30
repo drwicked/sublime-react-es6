@@ -1,6 +1,6 @@
 {
-  "name": "sublime-react16-es6",
-  "version": "0.3.2",
+  "name": "sublime-react16-es7",
+  "version": "0.6.0",
   "author": "Marcus Bernales <marcusbernales@gmail.com>, Jonas Gebhardt <jonas.gebhardt@gmail.com>",
   "description": "Sublime Text helpers for ReactJS",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mboperator/sublime-react-es6"
+    "url": "https://github.com/drwicked/sublime-react-es7"
   },
   "dependencies" : {
     "async": "~0.7.0"

@@ -2,7 +2,7 @@ var fs = require('fs');
 var async = require('async');
 
 var DOCUMENTATION_TOP =
-  '# sublime-react-es6\n\n' +
+  '# sublime-react-es7\n\n' +
   'This is a fork of Facebook\'s original ReactJS Sublime Package.\n\n'+
   'The main changes I\'ve made include:\n\n' +
   '- Converting function declarations to the new ES6 shorthand.\n\n'+

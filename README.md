@@ -1,4 +1,4 @@
-# sublime-react-es6
+# sublime-react-es7
 
 This is a fork of Facebook's original ReactJS Sublime Package.
 
@@ -72,6 +72,8 @@ It's easy! Simply activate snippets by typing a mnemonic followed by TAB.
      pt→  propTypes { ... }
 
     rcc→  component skeleton
+
+    rcc→  Stateless Functional Component
 
    refs→  this.refs.
 

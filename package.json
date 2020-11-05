@@ -6,6 +6,7 @@
   "scripts": {
     "update": "cd ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/sublime-react-es7/ && git pull",
     "postupdate": "cd ~/dev/sublime-react-es7",
+    "repo": "open https://github.com/drwicked/sublime-react-es7",
     "build-docs": "node ./generateReadme.js"
   },
   "license": "MIT",
